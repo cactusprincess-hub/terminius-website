@@ -56,6 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
       { namespace: 'videos', afterEnter: afterEnterHook },
       { namespace: 'archives', afterEnter: afterEnterHook },
       { namespace: 'cathedral', afterEnter: afterEnterHook },
+      { namespace: 'member-zeropoint', afterEnter: afterEnterHook },
+      { namespace: 'member-meshweaver', afterEnter: afterEnterHook },
+      { namespace: 'member-redcyan', afterEnter: afterEnterHook },
+      { namespace: 'member-cathedral', afterEnter: afterEnterHook },
     ],
   });
 

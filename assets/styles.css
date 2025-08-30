@@ -210,6 +210,32 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link .panel {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  cursor: pointer;
+}
+
+.card-link:hover .panel {
+  transform: translateY(-2px);
+  border-color: rgba(0,229,255,0.5);
+  box-shadow: var(--glow);
+}
+
+.profile {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #000;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .tag {
   display: inline-block;
   padding: 6px 10px;
