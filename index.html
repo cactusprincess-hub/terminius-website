@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — 首页</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <meta name="theme-color" content="#0a0c12" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="暗黑科幻 · 霓虹赛博 · 故障美学 — 官方站点" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="home" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/play.html" data-ns="play">直连游戏</a>
+        <a href="/auth.html" data-ns="auth">注册 / 登录</a>
+        <a href="/story.html" data-ns="story">剧情</a>
+        <a href="/videos.html" data-ns="videos">发布视频</a>
+        <a href="/team.html" data-ns="team">开发者</a>
+        <a href="/archives.html" data-ns="archives">终端档案</a>
+        <a href="/cathedral.html" data-ns="cathedral">数字教堂</a>
+      </header>
+
+      <div class="container">
+        <section class="hero">
+          <div class="panel panel--pad">
+            <h1 class="glitch" data-text="Dark Sci‑Fi Interface">Dark Sci‑Fi Interface</h1>
+            <div class="subtitle">“故障美学 / Glitch Aesthetics” · “冻结时间，废弃终端” · 霓虹<span class="tag">Red</span> × <span class="tag">Cyan</span> 强对比 · “Brutalist Web Design”</div>
+            <div class="spacer"></div>
+            <div class="row">
+              <a class="btn btn--primary" href="/play.html">立即连接 / Connect</a>
+              <a class="btn btn--ghost" href="/story.html">了解剧情</a>
+            </div>
+          </div>
+          <div class="panel panel--pad">
+            <div class="tag">Retro Terminal / Cyberpunk CLI</div>
+            <div class="spacer"></div>
+            <div class="terminal">
+              <div><span class="prompt">guest@void</span>:~$ whoami</div>
+              <div>anonymous_ghost</div>
+              <div><span class="prompt">guest@void</span>:~$ date</div>
+              <div>TIME FROZEN 00:00:00</div>
+              <div><span class="prompt">guest@void</span>:~$ connect --neon cyan --override red</div>
+              <div>signal: corrupted ▒▒▒▒▒▒▒▒▒▒ scanning...</div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>© NEON//INTERFACE — datastream / corrupted signal / scanline overlay</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+

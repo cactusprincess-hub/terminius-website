@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — 剧情</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="story" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/play.html" data-ns="play">直连游戏</a>
+        <a href="/auth.html" data-ns="auth">注册 / 登录</a>
+        <a href="/story.html" data-ns="story">剧情</a>
+        <a href="/videos.html" data-ns="videos">发布视频</a>
+        <a href="/team.html" data-ns="team">开发者</a>
+        <a href="/archives.html" data-ns="archives">终端档案</a>
+        <a href="/cathedral.html" data-ns="cathedral">数字教堂</a>
+      </header>
+
+      <div class="container">
+        <section class="panel panel--pad">
+          <h1 class="glitch" data-text="STORYLINE">STORYLINE</h1>
+          <p class="muted">城市时间被冻结的第 0 日。被遗弃的终端仍在发出微弱噪声。</p>
+          <div class="spacer"></div>
+          <div class="grid" style="grid-template-columns: 1fr 1fr;">
+            <div>
+              <h3>序章：冻结</h3>
+              <p>巨构之城的中央钟楼停止，所有协议超时。你在断电的数据穹顶醒来。</p>
+            </div>
+            <div>
+              <h3>第一幕：回声</h3>
+              <p>红与青的信号碰撞产生残影，回声引导你前往地表的裂隙。</p>
+            </div>
+            <div>
+              <h3>第二幕：背面</h3>
+              <p>你进入城市背面：电缆密林、冷却雾、故障的圣歌。</p>
+            </div>
+            <div>
+              <h3>第三幕：重启</h3>
+              <p>数字教堂的门缓缓开启——核心进程等待被唤醒。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>更多章节将在发布后解锁。</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+
