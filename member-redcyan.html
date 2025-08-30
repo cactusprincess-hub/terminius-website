@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — RedCyan</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="member-redcyan" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/team.html" data-ns="team">返回团队</a>
+      </header>
+
+      <div class="container">
+        <section class="panel panel--pad">
+          <div class="grid" style="grid-template-columns: 1fr 1.2fr; align-items: start; gap: 24px;">
+            <img class="profile" src="https://picsum.photos/800/450?random=13" alt="RedCyan" />
+            <div>
+              <div class="tag">Art</div>
+              <h1>RedCyan</h1>
+              <p class="muted">视觉与关卡艺术。标志性的霓虹红 ✕ 青对比，利用色分离与 scanline 重塑空间的层次与速度。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>“红与青的冲突，是时间与记忆的相位差。”</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+
