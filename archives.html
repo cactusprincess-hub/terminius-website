@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — 终端档案</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="archives" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/play.html" data-ns="play">直连游戏</a>
+        <a href="/auth.html" data-ns="auth">注册 / 登录</a>
+        <a href="/story.html" data-ns="story">剧情</a>
+        <a href="/videos.html" data-ns="videos">发布视频</a>
+        <a href="/team.html" data-ns="team">开发者</a>
+        <a href="/archives.html" data-ns="archives">终端档案</a>
+        <a href="/cathedral.html" data-ns="cathedral">数字教堂</a>
+      </header>
+
+      <div class="container">
+        <section class="panel panel--pad">
+          <h1 class="glitch" data-text="TERMINAL ARCHIVES">TERMINAL ARCHIVES</h1>
+          <p class="muted">日志、配置、残缺的系统片段——冷存的记忆。</p>
+          <div class="spacer"></div>
+          <div class="terminal" id="archiveTerm">
+            <div><span class="prompt">archiver</span>:~$ ls -la /var/echo</div>
+            <div>-rw-r--r-- echo-0001.log</div>
+            <div>-rw-r--r-- echo-0002.log</div>
+            <div>-rw-r--r-- manifesto.md</div>
+            <div><span class="prompt">archiver</span>:~$ cat manifesto.md</div>
+            <div>We build in neon and silence.</div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>更多档案将随游戏进程逐步解锁。</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+

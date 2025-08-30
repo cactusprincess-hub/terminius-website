@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — 发布视频</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="videos" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/play.html" data-ns="play">直连游戏</a>
+        <a href="/auth.html" data-ns="auth">注册 / 登录</a>
+        <a href="/story.html" data-ns="story">剧情</a>
+        <a href="/videos.html" data-ns="videos">发布视频</a>
+        <a href="/team.html" data-ns="team">开发者</a>
+        <a href="/archives.html" data-ns="archives">终端档案</a>
+        <a href="/cathedral.html" data-ns="cathedral">数字教堂</a>
+      </header>
+
+      <div class="container">
+        <section class="panel panel--pad">
+          <h1 class="glitch" data-text="RELEASE TRAILERS">RELEASE TRAILERS</h1>
+          <p class="muted">嵌入各平台视频：YouTube / Bilibili / Vimeo。</p>
+          <div class="spacer"></div>
+          <div class="grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video-embed">
+              <iframe src="https://player.bilibili.com/player.html?bvid=BV1xx411c7mD&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" scrolling="no" frameborder="0"></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>替换为正式发布的视频链接。</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+

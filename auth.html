@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEON//INTERFACE — 注册 / 登录</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="auth" class="frame">
+      <header class="nav">
+        <div class="brand">NEON//INTERFACE</div>
+        <a href="/index.html" data-ns="home">首页</a>
+        <a href="/play.html" data-ns="play">直连游戏</a>
+        <a href="/auth.html" data-ns="auth">注册 / 登录</a>
+        <a href="/story.html" data-ns="story">剧情</a>
+        <a href="/videos.html" data-ns="videos">发布视频</a>
+        <a href="/team.html" data-ns="team">开发者</a>
+        <a href="/archives.html" data-ns="archives">终端档案</a>
+        <a href="/cathedral.html" data-ns="cathedral">数字教堂</a>
+      </header>
+
+      <div class="container">
+        <section class="grid" style="grid-template-columns: 1fr 1fr;">
+          <div class="panel panel--pad">
+            <h2 class="glitch" data-text="LOGIN">LOGIN</h2>
+            <label>邮箱</label>
+            <input type="email" placeholder="you@domain.com" />
+            <label>密码</label>
+            <input type="password" placeholder="••••••••" />
+            <div class="spacer"></div>
+            <button class="btn btn--primary" style="width:100%">登录</button>
+          </div>
+          <div class="panel panel--pad">
+            <h2 class="glitch" data-text="REGISTER">REGISTER</h2>
+            <label>昵称</label>
+            <input placeholder="Runner-042" />
+            <label>邮箱</label>
+            <input type="email" placeholder="you@domain.com" />
+            <label>密码</label>
+            <input type="password" placeholder="至少 8 位" />
+            <div class="spacer"></div>
+            <button class="btn btn--danger" style="width:100%">注册</button>
+          </div>
+        </section>
+      </div>
+
+      <footer class="container muted center">
+        <small>本页 UI 为占位，接入后端后对接真实接口。</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
+
